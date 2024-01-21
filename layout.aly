@@ -1,0 +1,21 @@
+{
+  LinearLayout,
+  orientation="vertical",
+  layout_width="match",
+  layout_height="match",
+  gravity="center",
+  {
+    require("LuaFileTabView"),
+    id="mTab",
+    layout_width="match",
+    layout_height="48dp",
+    tabMode=TabLayout.MODE_SCROLLABLE,
+    selectedTabIndicatorHeight=0,
+    inlineLabel=true,
+    canSelectTab=false,
+  },
+  {
+    Button,
+    id="button",
+  },
+}
