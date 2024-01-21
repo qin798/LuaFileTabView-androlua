@@ -1,0 +1,9 @@
+appname="LuaFileTabView"
+appver="1.0"
+packagename="com.openlua.demo3"
+theme="Theme_Material_Light_NoActionBar"
+debugmode=true
+user_permission={
+  "INTERNET",
+  "WRITE_EXTERNAL_STORAGE",
+}
