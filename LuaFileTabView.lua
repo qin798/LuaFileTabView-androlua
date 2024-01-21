@@ -66,9 +66,7 @@ return class{
 
         tab.setText(v)
         local tab_view = tab.view
-        if not select_tab then
-          tab_view.setOnTouchListener(lambda():true)
-        end
+        tab_view.setOnTouchListener(lambda():not select_tab)
         local textView = tab_view.getChildAt(1)
         textView.setAllCaps(false)
       end
